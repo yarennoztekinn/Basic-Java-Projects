@@ -26,11 +26,7 @@ public class workers {
 		System.out.println("ID: "              + ID);
 		System.out.println("Name: "            + name);
 		System.out.println("Surname: "         + surname);
-		if (experiences > 1) {
-			System.out.println("Experiences: " + experiences);
-		} else {
-			System.out.println("Experience: "  + experiences);
-		}
+		System.out.println(((experiences > 1) ? "experiences: " : "experience: ")  + experiences);
 		System.out.println("Salary: "          + salary);
 
 	}
